@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: mycart-app-prod
 spec:
-  container: 
+  containers: 
     - name: test-container
       image: varunsamdocker/dimple:1.0
       ports:
