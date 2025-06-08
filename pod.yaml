@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: mycart-app-prod
+  namespace: varun-ns
 spec:
   containers: 
     - name: test-container
