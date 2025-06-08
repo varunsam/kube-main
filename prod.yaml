@@ -5,6 +5,6 @@ metadata:
 spec:
   container: 
     - name: test-container
-    image: varunsamdocker/dimple:1.0
-    ports:
-      - containerPort: 3015
+      image: varunsamdocker/dimple:1.0
+      ports:
+        - containerPort: 3015
